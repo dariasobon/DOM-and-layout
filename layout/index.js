@@ -3,7 +3,6 @@ let toggleRightNavStatus = false
 let clientWidth = document.documentElement.clientWidth;
 
 const toggleLeftNav = () => {
-  console.log(clientWidth, 'clientWidth')
   let getLeftSidebar = document.querySelector(`.left-nav`)
 
   if (toggleLeftNavStatus === false && clientWidth > '479') {
