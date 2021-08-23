@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Basic layout</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>header</h1>
+      <nav class="nav-main">
+        <div class="btn-toggle-nav" onclick="toggleLeftNav()">
+          <a class="btn-x">L</a>
+        </div>
+        <div class="btn-toggle-nav" onclick="toggleRightNav()">
+          <a class="btn-x">R</a>
+        </div>
+      </nav>
+    </header>
+
+    <main class="wrapper">
+      <div class="flexWrap">
+        <aside class="nav-sidebar left-nav">
+          <p>left sidebar</p>
+        </aside>
+        <article>article</article>
+        <aside class="nav-sidebar right-nav">
+          <p>
+            right sidebar
+          </p>
+        </aside>
+      </div>
+    </main>
+
+    <footer>
+      <h2>footer</h2>
+    </footer>
+    <script src="index.js"></script>
+  </body>
+</html>
